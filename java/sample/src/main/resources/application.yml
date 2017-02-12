@@ -1,0 +1,19 @@
+
+spring:
+  thymeleaf:
+    cache: false
+
+  datasource:
+    platform: mysql
+    url: jdbc:mysql://raspi3.home.localnet/testdb?useSSL=false
+    username: test
+    password: test
+    driver-class-name: com.mysql.jdbc.Driver
+    sql-script-encoding: UTF-8
+    
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8080
